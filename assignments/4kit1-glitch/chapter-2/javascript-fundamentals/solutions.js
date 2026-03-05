@@ -27,8 +27,8 @@ const quotient = 10 / 5;
 const remainder = 10 % 3;
 
 // Comparison
-console.log(5 == "5");
-console.log(0 === false);
+console.log(0 == null);
+console.log(0 === null);
 console.log(5 > 3);   
 console.log(3 >= 3);      
 
@@ -38,3 +38,20 @@ console.log(true || false);  // true
 console.log(!true);          // false
 
 const status = age > 18 ? "adult" : "minor";
+
+// Nullish coalescing
+const value = null ?? "default";
+console.log(value)
+
+
+//  Exercise 3-conditionals
+
+const score = 85;
+if (score >= 90) {
+  console.log("Grade A");
+} else if (score >= 80) {
+  console.log("Grade B");
+} else {
+  console.log("Grade C");
+}
+
