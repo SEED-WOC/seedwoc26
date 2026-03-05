@@ -1,13 +1,10 @@
+
 //  Exercise-1
-
-
 const name = "Alice";
 const age = 25;
 const isStudent = true;
 const person = { name: "Bob", age: 30 };
-const skills = ["JavaScript", "HTML", "CSS"];
-
-// inspecting types
+const skills = ["JavaScript", 4 , "HTML", "CSS"];
 
 console.log(typeof name); 
 console.log(typeof age);     
@@ -15,5 +12,11 @@ console.log(typeof isStudent);
 console.log(typeof person);  
 console.log(Array.isArray(skills)); 
 
+let counter = 0;
+counter = 1;
+counter = 2;
+
+const PI = 3.14159
+//PI = 3; //Error
 
 
