@@ -129,3 +129,31 @@ let student = {
   }
 
 };
+
+
+// Exercise-8-type-conversions
+
+print(String(123))    // converts 123 to "123"
+print(Number("123"))  // converts "123" to 123
+print(Boolean(0))     // false 
+
+
+// Exercise-9-template-literals
+
+let country_name = "Cameroon";
+let country_code = 237;
+
+console.log(
+            `I am from ${country_name}.\n
+             our country code is +${country_code}
+            `
+          );
+
+
+// exercise-10- array methods
+
+let numbers = [1,2,3,4,5,6]
+
+print(numbers.push(8))  // adds 8 to the end 
+print(numbers.pop())
+print(numbers.filter(numbers%2 != 0))
