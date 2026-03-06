@@ -96,3 +96,20 @@ console.log(user.greet());
 
 // Check if property exists
 console.log("name" in user);
+
+
+// Exercise-6-multiple-type-checks
+
+let print = console.log
+
+const user_name =prompt("enter your username:");
+const user_age =prompt("enter your age");
+const user_password =prompt("enter your password:");
+
+if(typeof(user_name) === String && user_password != null){
+  print("all types are valid");
+}
+else{
+  print("invalid types");
+}
+
