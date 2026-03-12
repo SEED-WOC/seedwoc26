@@ -176,4 +176,3 @@ console.log("name" in user); // true
 ✅ Understand truthy/falsy  
 ✅ Know operator precedence  
 ✅ Type coercion can be tricky!
-
