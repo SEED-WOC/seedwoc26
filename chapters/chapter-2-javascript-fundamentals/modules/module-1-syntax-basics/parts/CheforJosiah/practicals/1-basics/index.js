@@ -44,38 +44,42 @@
 // console.log("is value1 strictly equal to value2? " + isStrictlyEqual);
 
 // MORE OF COMPARISON OPERATORS
-const age = 13;
-const requiredAge = 18;
-const isEligible = age >= requiredAge;
-console.log("Is the person eligible? " + isEligible);
+// const age = 13;
+// const requiredAge = 18;
+// const isEligible = age >= requiredAge;
+// console.log("Is the person eligible? " + isEligible);
 
-// COMPARE REQUIRED AGE WITH USER INPUT NO TYPE COERCION
-// COMPARE REQUIRED AGE WITH USER INPUT WITH TYPE COERCION
+// // COMPARE REQUIRED AGE WITH USER INPUT NO TYPE COERCION
+// // COMPARE REQUIRED AGE WITH USER INPUT WITH TYPE COERCION
 
-const userInput = "20";
-const myRequiredAge = 18;
-const isEligible1 = userInput === myRequiredAge;
-  console.log("is user eligible without type coercion? " + isEligible1);
+// const userInput = "20";
+// const myRequiredAge = 18;
+// const isEligible1 = userInput === myRequiredAge;
+//   console.log("is user eligible without type coercion? " + isEligible1);
 
- const isEligible2 = userInput == myRequiredAge;
-  console.log("is user eligible with type coercion? " + isEligible2);
+//  const isEligible2 = userInput == myRequiredAge;
+//   console.log("is user eligible with type coercion? " + isEligible2);
 
 
-// BASIC CALCULATOR
-console.log("BASIC CALCULATOR");
-const num1 = 10;
-const num2 = 2;
+// // BASIC CALCULATOR
+// console.log("BASIC CALCULATOR");
+// const num1 = 10;
+// const num2 = 2;
 
-const addition = num1 + num2;
-const subtraction = num1 - num2;
-const multiplication = num1 * num2;
-const division = num1 / num2;
-const modulus = num1 % num2;
-const exponential = num1 ** num2;
+// const addition = num1 + num2;
+// const subtraction = num1 - num2;
+// const multiplication = num1 * num2;
+// const division = num1 / num2;
+// const modulus = num1 % num2;
+// const exponential = num1 ** num2;
 
-console.log(`Addition of num1 and num2 is: ${num1} + ${num2} = ${addition}`);
-console.log(`Subtraction of num1 and num2 is: ${num1} - ${num2} = ${subtraction}`);
-console.log(`Multiplication of num1 and num2 is: ${num1} * ${num2} = ${multiplication}`);
-console.log(`Division of num1 and num2 is: ${num1} / ${num2} = ${division}`);
-console.log(`Modulus is ${num1} % ${num2} = ${modulus}`);
-console.log(`Exponential is ${num1} ** ${num2} = ${exponential}`);
+// console.log(`Addition of num1 and num2 is: ${num1} + ${num2} = ${addition}`);
+// console.log(`Subtraction of num1 and num2 is: ${num1} - ${num2} = ${subtraction}`);
+// console.log(`Multiplication of num1 and num2 is: ${num1} * ${num2} = ${multiplication}`);
+// console.log(`Division of num1 and num2 is: ${num1} / ${num2} = ${division}`);
+// console.log(`Modulus is ${num1} % ${num2} = ${modulus}`);
+// console.log(`Exponential is ${num1} ** ${num2} = ${exponential}`);
+
+
+
+
